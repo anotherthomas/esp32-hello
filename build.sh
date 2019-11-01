@@ -4,8 +4,8 @@ source setenv.sh
 
 # export V=1
 make -j6 app && \
-# rustup run xtensa xargo build --release --verbose && \
-rustup run xtensa xargo build --release && \
+# rustup run xtensa xargo build --release && \
+rustup run xtensa xargo build --release --verbose && \
 $IDF_PATH/components/esptool_py/esptool/esptool.py \
 	--chip esp32 \
 	elf2image \
