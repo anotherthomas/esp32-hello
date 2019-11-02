@@ -2,3 +2,6 @@
 	path = esp-idf
 	url = https://github.com/espressif/esp-idf.git
 	tag = v3.1.3
+[submodule "esp32-sys"]
+	path = esp32-sys
+	url = https://github.com/mattcaron/esp32-sys.git
